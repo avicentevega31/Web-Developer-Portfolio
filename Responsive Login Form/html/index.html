@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <title>Beautiful glass login form - Bedimcode</title>
+</head>
+
+<body>
+    <!-- Main container -->
+    <div class="container">
+        <!--  Login container -->
+        <div class="login__content">
+
+            <!--  Wallpaper -->
+            <img src="../img/bg-login.png" alt="login image" class="login__img">
+            
+            <!--  Form Structure -->
+            <form action="" class="login__form">
+
+                <!--  Form's Header -->
+                <div>
+                    <!--  Title -->
+                    <h1 class="login__title"><span>Welcome</span> Back</h1>
+                    <!--  Subtitle -->
+                    <p class="login__description">Welcome! Please login to continue</p>
+                </div>
+                
+                <!--  Form's Body -->
+                <div>
+                    <!--  Form's Inputs -->
+                    <div class="login__inputs">
+                        <!--  Account's Email -->
+                        <div>
+                            <!--  Email's Label -->
+                            <label for="" class="login__label">Email</label>
+                            <!--  Email -->
+                            <input type="email" placeholder="Enter your email address" required class="login__input">
+                        </div>
+                        <!--  Password's Email -->
+                        <div>
+                            <!--  Password's Label -->
+                            <label for="" class="login__label">Password</label>
+                            <!--  Password's Box -->
+                            <div class="login__box">
+                                <!--  Password -->
+                                <input type="password" placeholder="Enter ypur password" required class="login__input" id="input-pass">
+                                <!--  Eye in hidden password case -->
+                                <i class="ri-eye-off-line login__eye" id="input-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--  Remember account -->
+                    <div class="login__check">
+                        <!-- Box's Remember option -->
+                        <input type="checkbox" class="login__check-input">
+                        <!-- Remember option's label -->
+                        <label for="" class="login__check-label">Remember me</label>
+                    </div>
+                </div>  
+
+                <!-- Log-in Container-->
+                <div>
+                    <!-- Log-in Buttons -->
+                    <div class="login__buttons">
+                        <!-- Log-in Button -->
+                        <button class="login__button">Log In</button>
+                        <!-- Sign-Up Button -->
+                        <button class="login__button login__button-ghost">Sign Up</button>
+                    </div>
+
+                    <!-- Forgot Password Option-->
+                    <a href="#" class="login__forgot">Forgot password?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
